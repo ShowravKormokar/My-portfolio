@@ -5,6 +5,7 @@ body {
 
 h1 {
     font-size: 50px;
+    text-shadow: 2px 2px black;
 }
 
 #mission,
@@ -46,6 +47,23 @@ h1 {
     padding-left: 15%;
 }
 
+.shadow {
+    box-shadow: 3px 3px 20px orange;
+    padding: 50px;
+    margin: 3%;
+}
+
+.shadow img {
+    width: 80px;
+    height: 80px;
+    padding-left: 1%;
+}
+
+hr {
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px 2px orange;
+}
+
 a {
     color: black;
     background-image: linear-gradient(red, orange);
@@ -53,6 +71,7 @@ a {
     padding: 8px 35px;
     border-radius: 5px;
     font-weight: 700;
+    margin: 1%;
 }
 
 ul {
